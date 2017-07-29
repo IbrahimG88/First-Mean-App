@@ -1,0 +1,12 @@
+ <div class="container">
+ <h1> Event Form </h1>
+ <form [formGroup]="eventData" novalidate>
+     <div>
+ <label>Sports Type:
+ <input formControlName="type">
+ </label>
+ </div>
+  </form>
+ </div>
+ <p> Form value: {{ eventData.value | json }} </p>
+  <p> Form status: {{ eventData.status | json }} </p>

@@ -1,0 +1,1 @@
+// The server.js file will have the server code, that will point to the server folder, where the rest of the server implementation is.
